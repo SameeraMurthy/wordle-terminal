@@ -1,15 +1,15 @@
 {
   "name": "wordle-terminal",
   "version": "1.0.0",
-  "description": "",
+  "description": "Play wordle in your terminal.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "type": "module",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["wordle"],
+  "author": "Sameer M",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^5.0.0",
     "inquirer": "^8.2.0"
